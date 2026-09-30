@@ -1,0 +1,52 @@
+:root {
+    --bg-color: #f4f4f4;
+    --text-color: #333;
+    --card-color: white;
+    --border-color: #ccc;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+body.dark {
+    --bg-color: #222;
+    --text-color: #f4f4f4;
+    --card-color: #333;
+    --border-color: #555;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: var(--card-color);
+    padding: 20px;
+    border: 1px solid var(--border-color);
+}
+
+textarea {
+    width: 100%;
+    min-height: 180px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.warning {
+    color: orange;
+}
+
+.over {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+}
