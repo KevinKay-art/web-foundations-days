@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+The most difficult concept in this course was understanding how different parts of a system work together, especially APIs, databases, and system architecture. At first, it was challenging to understand how a design decision in one component could affect the whole system. I overcame this by breaking problems into smaller parts, studying examples, practising SQL and API design, and using diagrams to explain how components communicate.
+
+Based on my earlier capstone work and the grades I received, I would improve the completeness and clarity of my system design documentation. I would address every requirement explicitly, explain important technical decisions, and check my final work against the assessment rubric before submitting it. In TicketHub, I have paid particular attention to database constraints, transactions, and the risk of two customers trying to purchase the same seat. I would also improve my architecture diagrams by making the flow of requests and data easier to follow.
+
+Next, I want to learn more about backend development, database transactions, authentication, and automated testing. I also want to practise building and deploying a working application using a backend framework and a relational database. These skills will help me move from designing systems on paper to implementing reliable applications that solve real-world problems.
